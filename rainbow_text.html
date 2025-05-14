@@ -1,0 +1,7 @@
+<h1 id="rainbow">Rainbow Text</h1>
+<script>
+let h = 0;
+setInterval(() => {
+  document.getElementById("rainbow").style.color = `hsl(${h++ % 360}, 100%, 50%)`;
+}, 50);
+</script>
